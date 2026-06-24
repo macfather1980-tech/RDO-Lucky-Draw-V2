@@ -212,7 +212,7 @@
             <button class="btn-import" onclick="importCSVTrigger()">匯入 CSV 歷史紀錄</button>
             <button class="btn-clear-history" onclick="clearImportedHistory()">清除匯入的歷史紀錄</button>
         </div>
-        <input type="file" id="csv-import-input" style="display: none;" accept=".csv,text/csv,text/plain" onchange="handleCSVImport(event)">
+        <input type="file" id="csv-import-input" style="display: none;" onchange="handleCSVImport(event)">
         
         <span class="table-title">【本次抽籤紀錄】 (已完成且會影響配額)</span>
         <table class="log-table">
