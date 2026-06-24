@@ -1,7 +1,7 @@
 // 1. 這裡非常重要！每次你修改代碼並重新上傳後，
 // 請手動把這裡的 v1 改成 v2, v3, v4...
 // 這會強迫瀏覽器刪除舊的快取並重新安裝新版本。
-const CACHE_VERSION = 'rdo-app-v3'; 
+const CACHE_VERSION = 'rdo-app-v2'; 
 
 const cacheName = `rdo-cache-${CACHE_VERSION}`;
 
